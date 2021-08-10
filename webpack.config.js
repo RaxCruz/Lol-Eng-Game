@@ -2,7 +2,8 @@ const path = require("path");
 
 module.exports = {
   entry: {
-    index: "./index.js",
+    index: ["regenerator-runtime/runtime.js", "./index.js"],
+    //index: "./index.js",
   },
   output: {
     filename: "bundle.js",
