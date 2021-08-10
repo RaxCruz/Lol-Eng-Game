@@ -23,6 +23,7 @@ const CardContentLol = (props) => {
     };
     fetchImg();
   }, []);
+  console.log("hi");
   return (
     <div className="wrap">
       <div className="card">
