@@ -15,7 +15,7 @@ const CardContentLol = (props) => {
     const fetchImg = async () => {
       setLoading(true);
       const res = await axios.get(
-        `http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${
+        `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${
           props.imgName
         }_${getRandomImg()}.jpg`
       );
@@ -31,7 +31,7 @@ const CardContentLol = (props) => {
             <h1>loading...</h1>
           ) : (
             <img
-              src={`http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${
+              src={`https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${
                 props.imgName
               }_${getRandomImg()}.jpg`}
               alt="no-img"
