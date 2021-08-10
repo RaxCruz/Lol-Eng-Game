@@ -1,0 +1,30 @@
+.Score-Out-Wrap {
+  width: 15%;
+  height: 20%;
+  position: absolute;
+  right: -20%;
+  bottom: 70%;
+
+  p {
+    display: block;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(3, 231, 3);
+    font-variant-numeric: oldstyle-nums;
+  }
+  .up {
+    transform: translateX(-20%);
+    // box-shadow: 0px -5px 5px #0bc6e3;
+  }
+  .down {
+    transform: translateX(20%);
+    //box-shadow: 5px 5px 5px #0bc6e3;
+  }
+  div {
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 0 5px white, 0 0 7px white;
+    transform: rotateZ(-45deg);
+  }
+}

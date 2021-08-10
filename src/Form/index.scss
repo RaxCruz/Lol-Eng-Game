@@ -1,0 +1,39 @@
+.TranslateFrom {
+  display: inline-block;
+  position: relative;
+  margin-top: 10px;
+  span {
+    margin-left: 5px;
+    display: inline-block;
+    height: 20px;
+    position: relative;
+    color: black;
+  }
+  .answer {
+    color: #0ef321;
+  }
+  .wrong {
+    color: rgb(241, 44, 44);
+  }
+}
+input {
+  height: 100%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 19px;
+  font-weight: 500;
+  font-family: monospace, "Times New Roman", Times, serif;
+}
+input:focus {
+  outline: none;
+}
+span::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  left: 0px;
+  bottom: -4px;
+  background: linear-gradient(90deg, #9e8753 50%, #d0a85c 100%);
+  border-bottom: 3px solid #c2902d;
+}

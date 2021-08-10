@@ -1,0 +1,861 @@
+[
+  {
+    "name": ["Aatrox", "厄薩斯"],
+    "imgName": ["Aatrox", "厄薩斯"],
+    "id": 0,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Aatrox.png",
+    "cardImgMax": 4,
+    "cardImg": "http://ddragon.leagueoflegends.com/cdn/img/champion/loading/Aatrox_",
+    "spellIcon": [],
+    "skills": [
+      {
+        "key": ["passive", "被動"],
+        "name": ["DEATHBRINGER STANCE", "冥使劍姿"],
+        "info": [
+          "Periodically , Aatrox's next basic attack deals bonus physical damage and heals him , based on the target's max health .",
+          "每隔一段時間，厄薩斯下一次的普攻額外造成相當於目標最大生命的額外物理傷害並治癒自己，治癒量將根據目標的最大生命。"
+        ]
+      },
+      {
+        "key": ["Q", "Q招式"],
+        "name": ["THE DARKIN BLADE", "冥血邪劍"],
+        "info": [
+          "Aatrox slams his greatsword down , dealing physical damage . He can swing three times , each with a different area of effect .",
+          "厄薩斯猛力揮砍大劍並造成物理傷害。最多可揮砍 3 次，每次都有不同的技能範圍。"
+        ]
+      },
+      {
+        "key": ["W", "W招式"],
+        "name": ["INFERNAL CHAINS", "冥府血鏈"],
+        "info": [
+          "Aatrox smashes the ground , dealing damage to the first enemy hit . Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again .",
+          "厄薩斯打擊地表，對首位命中的敵人造成傷害。若技能範圍內的敵方英雄和大型野怪未能及時逃離，他們將會被拉回範圍中心並再次受到傷害。"
+        ]
+      },
+      {
+        "key": ["E", "E招式"],
+        "name": ["UMBRAL DASH", "冥影衝鋒"],
+        "info": [
+          "Passively , Aatrox heals when damaging enemy champions . On activation , he dashes in a direction .",
+          "被動效果為厄薩斯對敵方英雄造成傷害時回復自身生命。主動效果為朝某一個方向衝刺。"
+        ]
+      },
+      {
+        "key": ["R", "大招"],
+        "name": ["WORLD ENDER", "劍魔滅世"],
+        "info": [
+          "Aatrox unleashes his demonic form , fearing nearby enemy minions and gaining attack damage , increased healing , and movement speed . If he gets a takedown , this effect is extended .",
+          "厄薩斯釋放冥血之力，恐懼附近敵方小兵並獲得物理攻擊、提升生命值和移動速度。如果他取得了一個擊殺或助攻，此效果將會延長。"
+        ]
+      }
+    ],
+    "storys": [
+      {
+        "key": ["First Paragraph", "第一段"],
+        "name": ["First paragraph", "第一段"],
+        "info": [
+          "Once honored defenders of Shurima against the Void , Aatrox and his brethren would eventually become an even greater threat to Runeterra , and were defeated only by cunning mortal sorcery .",
+          "尊貴的蘇瑞瑪守護者過去曾為符文大地挺身對抗虛空，只不過厄薩斯和他的同伴們最後卻成為比虛空還要危險的威脅。然而，誰都沒有料想到強大的他居然會被人類的魔法所擊敗。"
+        ]
+      },
+      {
+        "key": ["Second Paragraph", "第二段"],
+        "name": ["Second paragraph", "第二段"],
+        "info": [
+          "But after centuries of imprisonment , Aatrox was the first to find freedom once more , corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence .",
+          "厄薩斯的靈魂寄宿在冥血邪劍之中，經過數個世紀之後，他成為了首位發現如何重獲自由的冥血族。他侵蝕那些嘗試揮舞冥血邪劍的愚蠢人類，將他們的身心據為己有。"
+        ]
+      },
+      {
+        "key": ["Third Paragraph", "第三段"],
+        "name": ["Third paragraph", "第三段"],
+        "info": [
+          "Now, with stolen flesh , he walks Runeterra in a brutal approximation of his previous form , seeking an apocalyptic and long overdue vengeance .",
+          "現在他以近乎原始型態的軀體在符文大地遊蕩，誓言讓世界再次陷入末日來完成他的復仇。"
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["Ahri", "阿璃"],
+    "imgName": ["Ahri", "阿璃"],
+    "id": 1,
+    "cardImgMax": 6,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Ahri.png",
+    "skills": [
+      {
+        "key": ["passive", "被動"],
+        "name": ["ESSENCE THEFT", "銷魂"],
+        "info": [
+          "When Ahri strikes 9 enemies with her abilities , her next ability also heals her for each enemy hit .",
+          "當阿璃的技能命中敵人 9 次，她的下一個技能就會在每次命中敵人時治癒自己。"
+        ]
+      },
+      {
+        "key": ["Q", "Q招式"],
+        "name": ["ORB OF DECEPTION", "幻玉"],
+        "info": [
+          "Ahri sends out and pulls back her orb , dealing magic damage on the way out and true damage on the way back .",
+          "阿璃擲出她的幻玉後再召回，飛出時造成魔法傷害。折返時造成真實傷害。"
+        ]
+      },
+      {
+        "key": ["W", "W招式"],
+        "name": ["FOX-FIRE", "魅火"],
+        "info": [
+          "Ahri gains a brief burst of movement speed and releases three fox-fires , that lock onto and attack nearby enemies .",
+          "阿璃獲得短暫的爆發性移動速度加成，並釋放出三團狐火，鎖定附近的敵人進行攻擊。"
+        ]
+      },
+      {
+        "key": ["E", "E招式"],
+        "name": ["CHARM", "傾城"],
+        "info": [
+          "Ahri blows a kiss that damages and charms an enemy it encounters , instantly stopping movement abilities and causing them to walk harmlessly towards her . The target temporarily takes increased damage from Ahri .",
+          "阿璃送出飛吻，對擊中的敵人造成傷害同時魅惑目標，並立即中斷目標的位移技能，讓他們無法控制地走向阿璃。目標所受來自阿璃的傷害會暫時提升。"
+        ]
+      },
+      {
+        "key": ["R", "大招"],
+        "name": ["SPIRIT RUSH", "飛仙"],
+        "info": [
+          "Ahri dashes forward and fires essence bolts, damaging nearby enemies . Spirit Rush can be cast up to three times before going on cooldown .",
+          "阿璃向前衝刺並發射魔法彈，對周圍敵人造成傷害。飛仙於技能進入冷卻前最多可以施放 3 次。"
+        ]
+      }
+    ],
+    "storys": [
+      {
+        "key": ["First Paragraph", "第一段"],
+        "name": ["First paragraph", "第一段"],
+        "info": [
+          "Innately connected to the latent power of Runeterra , Ahri is a vastaya who can reshape magic into orbs of raw energy .",
+          "天生與潛伏於符文大地中的力量有緊密連結的阿璃是一名梵斯塔雅人，她擅長將魔力塑成充滿原始能量的靈玉。"
+        ]
+      },
+      {
+        "key": ["Second Paragraph", "第二段"],
+        "name": ["Second paragraph", "第二段"],
+        "info": [
+          "She revels in toying with her prey by manipulating their emotions before devouring their life essence .",
+          "阿璃喜好玩弄獵物的心智後吞噬他們的生命能量。"
+        ]
+      },
+      {
+        "key": ["Third Paragraph", "第三段"],
+        "name": ["Third paragraph", "第三段"],
+        "info": [
+          "Despite her predatory nature , Ahri retains a sense of empathy as she receives flashes of memory from each soul she consumes .",
+          "儘管阿璃具掠食本性，但隨著被吞食獵物的記憶一點一滴的流瀉，她也漸漸學會了同情、發展出了人性。"
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["Akali", "阿卡莉"],
+    "imgName": ["Akali", "阿卡莉"],
+    "id": 2,
+    "cardImgMax": 9,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Akali.png",
+    "skills": [
+      {
+        "key": ["passive", "被動"],
+        "name": ["ASSASSIN'S MARK", "刺客印記"],
+        "info": [
+          "Dealing spell damage to a champion creates a ring of energy around them . Exiting that ring empowers Akali's next autoattack with bonus range and damage .",
+          "使用技能傷害敵方英雄時會在其周圍創造一個能量環印。穿過環印後阿卡莉下一次的普通攻擊會提升攻擊距離及傷害。"
+        ]
+      },
+      {
+        "key": ["Q", "Q招式"],
+        "name": ["FIVE POINT STRIKE", "落擲苦無"],
+        "info": [
+          "Akali throws out five kunai , dealing damage based on her bonus Attack Damage and Ability Power and slowing .",
+          "阿卡莉擲出五支苦無，根據自身的額外物理攻擊和魔法攻擊造成傷害，並緩速目標。"
+        ]
+      },
+      {
+        "key": ["W", "W招式"],
+        "name": ["TWILIGHT SHROUD", "暮光朦影"],
+        "info": [
+          "Akali drops a cover of smoke and briefly gains Movement Speed . While inside the shroud , Akali becomes invisible and unable to be selected by enemy spells and attacks . Attacking or using abilities will briefly reveal her .",
+          "阿卡莉投擲煙霧彈並短暫獲得移動速度加成。當阿卡莉位於煙霧中，會使她進入潛隱狀態並無法被普攻或技能指定。攻擊或使用技能會使她短暫現形。"
+        ]
+      },
+      {
+        "key": ["E", "E招式"],
+        "name": ["SHURIKEN FLIP", "離群手裡劍"],
+        "info": [
+          "Flip backward and fire a shuriken forward, dealing magic damage . The first enemy or smoke cloud hit is marked . Re-cast to dash to the marked target , dealing additional damage .",
+          "阿卡莉向後跳躍並朝前方投擲手裡劍，對擊中的目標造成魔法傷害。遭到手裡劍命中的首位敵人或煙霧會被標記。阿卡莉可以重啟技能來衝向受到標記的目標，並造成額外傷害。"
+        ]
+      },
+      {
+        "key": ["R", "大招"],
+        "name": ["PERFECT EXECUTION", "無瑕追擊"],
+        "info": [
+          "Akali leaps in a direction , damaging enemies she strikes . Re-cast: Akali dashes in a direction , executing all enemies she strikes .",
+          "阿卡莉朝技能指向的位置衝刺，對擊中的目標造成傷害。重啟技能：阿卡莉再次朝技能指向的位置衝刺，對擊中的目標造成傷害。"
+        ]
+      }
+    ],
+    "storys": [
+      {
+        "key": ["First Paragraph", "第一段"],
+        "name": ["First paragraph", "第一段"],
+        "info": [
+          "Abandoning the Kinkou Order and her title of the Fist of Shadow , Akali now strikes alone , ready to be the deadly weapon her people need .",
+          "拋棄了均衡組織與暗影之拳的頭銜，阿卡莉如今獨自出擊，準備成為人民所需的致命武器。"
+        ]
+      },
+      {
+        "key": ["Second Paragraph", "第二段"],
+        "name": ["Second paragraph", "第二段"],
+        "info": [
+          "Though she holds onto all she learned from her master Shen , she has pledged to defend Ionia from its enemies , one kill at a time .",
+          "雖然她依舊記得從慎師傅身上所學的全部，但她已誓言守護愛歐尼亞免受敵人侵擾，見一個就殺一個。"
+        ]
+      },
+      {
+        "key": ["Third Paragraph", "第三段"],
+        "name": ["Third paragraph", "第三段"],
+        "info": [
+          "Akali may strike in silence , but her message will be heard loud and clear : fear the assassin with no master .",
+          "阿卡莉的行動或許悄然無聲，但她傳達的訊息卻響亮清晰：孑然一身的刺客最令人畏懼。"
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["Akshan", "埃可尚"],
+    "imgName": ["Akshan", "埃可尚"],
+    "id": 3,
+    "cardImgMax": 2,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Akshan.png",
+    "skills": [
+      {
+        "key": ["passive", "被動"],
+        "name": ["DIRTY FIGHTING", "無賴之道"],
+        "info": [
+          "Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion . When Akshan Attacks , he fires an additional Attack for reduced damage . If he cancels the additional Attack , he instead gains Move Speed .",
+          "來自埃可尚的每三次普攻或技能命中會造成額外傷害，並且如果目標是英雄還會為他提供一個護盾。在埃可尚攻擊時，他會額外進行一次造成較少傷害的射擊。如果他取消掉這次額外射擊，那麼他會轉而獲得移動速度。。"
+        ]
+      },
+      {
+        "key": ["Q", "Q招式"],
+        "name": ["AVENGERANG", "復仇迴力鏢"],
+        "info": [
+          "Akshan throws a boomerang that deals damage going out and coming back , extending its range each time it hits an enemy .",
+          "埃可尚投擲出一枚迴力鏢，在飛出與返回時造成傷害，會在每次命中一名敵人時延長它的距離。"
+        ]
+      },
+      {
+        "key": ["W", "W招式"],
+        "name": ["GOING ROGUE", "離經叛道"],
+        "info": [
+          "Akshan passively marks enemy champions as Scoundrels when they kill his ally champions . If Akshan kills a Scoundrel , he resurrects the allies they killed , gains bonus gold , and clears all marks . When activated , Akshan enters camouflage and gains Move Speed and Mana Regen while moving towards Scoundrels . Akshan loses the camouflage quickly while he is not in brush or near terrain .",
+          "被動效果：當敵方英雄擊殺埃可尚的友方英雄時，會被標記為惡徒。如果埃可尚擊殺了一名惡徒，他會復活被該惡徒擊殺的友方英雄，獲得額外金錢，並清除所有惡徒標記。主動施放時，埃可尚會進入偽裝狀態並在朝著惡徒移動時獲得移動速度和魔力回復。在離開草叢或地形附近後，埃可尚會失去偽裝狀態。"
+        ]
+      },
+      {
+        "key": ["E", "E招式"],
+        "name": ["HEROIC SWING", "英勇勾索"],
+        "info": [
+          "Akshan fires a grappling hook into terrain then swings around it , repeatedly firing at the nearest enemy while swinging . He can jump off early or gets knocked off when colliding with champions or terrain .",
+          "埃可尚發射一個鉤爪來嵌入地形，然後圍繞它進行擺蕩，在擺蕩時快速朝距離最近的敵人開火。他可以提前從勾索上盪下來，或在與一名敵方英雄或地形碰撞時落下。"
+        ]
+      },
+      {
+        "key": ["R", "大招"],
+        "name": ["COMEUPPANCE", "因果蓄能彈"],
+        "info": [
+          "Akshan locks onto an enemy champion and starts storing bullets. When released , he fires all stored bullets , dealing damage based on missing health to the first champion, minion , or structure hit .",
+          "埃可尚鎖定一名敵方英雄並開始儲存他的子彈。在釋放時，他會發射所有已儲存的子彈，對命中的第一個英雄、小兵或建築物根據已損失生命造成傷害。"
+        ]
+      }
+    ],
+    "storys": [
+      {
+        "key": ["First Paragraph", "第一段"],
+        "name": ["First paragraph", "第一段"],
+        "info": [
+          "Raising an eyebrow in the face of danger , Akshan fights evil with dashing charisma , righteous vengeance , and a conspicuous lack of shirts .",
+          "面對天大的危險，埃可尚也只會輕輕挑起一邊眉毛。他充滿魅力、身手矯健、嫉惡如仇 ─ 而且顯而易見的，他不太喜歡穿衣服。"
+        ]
+      },
+      {
+        "key": ["Second Paragraph", "第二段"],
+        "name": ["Second paragraph", "第二段"],
+        "info": [
+          "He is highly skilled in the art of stealth combat , able to evade the eyes of his enemies and reappear when they least expect him .",
+          "埃可尚非常善於潛行，能夠避開敵人的耳目，出現在最出其不意的時機。"
+        ]
+      },
+      {
+        "key": ["Third Paragraph", "第三段"],
+        "name": ["Third paragraph", "第三段"],
+        "info": [
+          "With a keen sense of justice and a legendary death-reversing weapon , he rights the wrongs of Runeterra's many scoundrels while living by his own moral code : Don't be an ass .",
+          "他懷拽著強烈的正義感，帶著一把可以逆轉生死的傳奇武器，在符文大地上主持公道，懲治邪惡。他以自己的生命踐行著自己的座右銘：「不當個混蛋」。"
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["Alistar", "亞歷斯塔"],
+    "imgName": ["Alistar", "亞歷斯塔"],
+    "id": 4,
+    "cardImgMax": 10,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Alistar.png",
+    "skills": [
+      {
+        "key": ["TRIUMPHANT ROAR", "被動"],
+        "name": ["ESSENCE THEFT", "勝利怒吼"],
+        "info": [
+          "Alistar charges his roar by stunning or displacing enemy champions or when nearby enemies die . When fully charged he heals himself all nearby allied champions .",
+          "亞歷斯塔暈眩、移動敵人或是周遭敵人死亡後將充能勝利怒吼。充能完畢時他將治療自己以及鄰近所有友方英雄。"
+        ]
+      },
+      {
+        "key": ["Q", "Q招式"],
+        "name": ["PULVERIZE", "大地粉碎"],
+        "info": [
+          "Alistar smashes the ground , dealing damage to nearby enemies and tossing them into the air .",
+          "亞歷斯塔猛擊地面，對周遭敵人造成傷害並將其擊飛到空中。"
+        ]
+      },
+      {
+        "key": ["W", "W招式"],
+        "name": ["HEADBUTT", "野蠻衝撞"],
+        "info": [
+          "Alistar rams a target with his head , dealing damage and knocking the target back .",
+          "亞歷斯塔衝撞目標，造成傷害並擊退目標。"
+        ]
+      },
+      {
+        "key": ["E", "E招式"],
+        "name": ["TRAMPLE", "蠻牛之力"],
+        "info": [
+          "Alistar tramples nearby enemy units , ignoring unit collision and gaining stacks if he damages an enemy champion . At full stacks Alistar's next basic attack against an enemy champion deals additional magic damage and stuns them .",
+          "亞歷斯塔踐踏周遭敵方單位，忽略單位碰撞。另外，傷害敵方英雄的話，他會獲得踐踏層數。層數疊滿時亞歷斯塔對敵方英雄的基本攻擊會造成額外魔法傷害，並暈眩他們。"
+        ]
+      },
+      {
+        "key": ["R", "大招"],
+        "name": ["UNBREAKABLE WILL", "堅定意志"],
+        "info": [
+          "Alistar lets out a wild roar , removing all crowd control effects on himself , and reducing incoming physical and magical damage for the duration .",
+          "亞歷斯塔發出野性的咆嘯，移除身上所有控制技能，持續時間內他所受的物理和魔法傷害會減少。"
+        ]
+      }
+    ],
+    "storys": [
+      {
+        "key": ["First Paragraph", "第一段"],
+        "name": ["First paragraph", "第一段"],
+        "info": [
+          "Always a mighty warrior with a fearsome reputation , Alistar seeks revenge for the death of his clan at the hands of the Noxian empire .",
+          "身為令人畏懼的強大戰士 － 亞歷斯塔，替自己滅亡的氏族尋找向諾克薩斯討回血債的機會。"
+        ]
+      },
+      {
+        "key": ["Second Paragraph", "第二段"],
+        "name": ["Second paragraph", "第二段"],
+        "info": [
+          "Though he was enslaved and forced into the life of a gladiator , his unbreakable will was what kept him from truly becoming a beast .",
+          "雖然被奴役的他被迫過著鬥士般的生活，但他堅不可摧的意志使自己避免成為一個完全的野獸。"
+        ]
+      },
+      {
+        "key": ["Third Paragraph", "第三段"],
+        "name": ["Third paragraph", "第三段"],
+        "info": [
+          "Now, free of the chains of his former masters , he fights in the name of the downtrodden and the disadvantaged , his rage as much a weapon as his horns, hooves and fists .",
+          "現在，逃離了上一個主人的束縛枷鎖，他替那些飽受壓迫的下層社會人民戰鬥著，他滿腔的怒火以及他所擁有的堅韌之角、強勁之蹄將成為他為正義所戰的武器。"
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["Amumu", "阿姆姆"],
+    "imgName": ["Amumu", "阿姆姆"],
+    "id": 5,
+    "cardImgMax": 8,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Amumu.png",
+    "skills": [
+      {
+        "key": ["passive", "被動"],
+        "name": ["CURSED TOUCH", "詛咒之觸"],
+        "info": [
+          "Amumu's basic attacks Curse his enemies , causing them to take bonus true damage from incoming magic damage .",
+          "阿姆姆的普攻會使敵人受到 詛咒，敵人受到任何魔法傷害時將承受額外真實傷害。"
+        ]
+      },
+      {
+        "key": ["Q", "Q招式"],
+        "name": ["BANDAGE TOSS", "繃帶牽引"],
+        "info": [
+          "Amumu tosses a sticky bandage at a target , stunning and damaging the target while he pulls himself to them .",
+          "阿姆姆向目標投擲粘稠的繃帶，將自己拉向目標，並對目標造成傷害和暈眩效果。"
+        ]
+      },
+      {
+        "key": ["W", "W招式"],
+        "name": ["DESPAIR", "絕望"],
+        "info": [
+          "Overcome by anguish , nearby enemies lose a percentage of their maximum Health each second and have their Curses refreshed .",
+          "周圍敵人陷入絕望，每秒損失相當於其最大生命一定百分比的生命，並刷新他們身上的詛咒。"
+        ]
+      },
+      {
+        "key": ["E", "E招式"],
+        "name": ["TANTRUM", "憤怒"],
+        "info": [
+          "Permanently reduces the physical damage Amumu would take . Amumu can unleash his rage , dealing damage to surrounding enemies . Each time Amumu is hit , the cooldown on Tantrum is reduced by 0.5 seconds .",
+          "永久減少阿姆姆所受的物理傷害。阿姆姆可以發洩他的怒火，對周圍的敵人造成傷害。阿姆姆被攻擊一次，該技能的冷卻時間就會減少 0.5 秒。"
+        ]
+      },
+      {
+        "key": ["R", "大招"],
+        "name": ["CURSE OF THE SAD MUMMY", "木乃伊之咒"],
+        "info": [
+          "Amumu entangles surrounding enemy units in bandages, applying his Curse, damaging and stunning them.",
+          "阿姆姆用繃帶將附近敵方單位通通纏住，對目標造成傷害並使其暈眩，並在他們身上附加詛咒。"
+        ]
+      }
+    ],
+    "storys": [
+      {
+        "key": ["First Paragraph", "第一段"],
+        "name": ["First paragraph", "第一段"],
+        "info": [
+          "Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima , roaming the world in search of a friend .",
+          "傳說阿姆姆是一個來自古蘇瑞瑪，既寂寞又憂鬱的靈魂。他在這世上飄遊徘徊，只是為了尋找朋友。"
+        ]
+      },
+      {
+        "key": ["Second Paragraph", "第二段"],
+        "name": ["Second paragraph", "第二段"],
+        "info": [
+          "Doomed by an ancient curse to remain alone forever , his touch is death , his affection ruin .",
+          "然而，受到古老咒語詛咒的他註定永遠孤獨。遭他碰觸的生命必定死亡，被他關心的存在必然毀滅。"
+        ]
+      },
+      {
+        "key": ["Third Paragraph", "第三段"],
+        "name": ["Third paragraph", "第三段"],
+        "info": [
+          "Those who claim to have seen him describe a living cadaver , small in stature and wrapped in creeping bandages .",
+          "那些曾經見過阿姆姆的人形容他是一個身形矮小的活屍，身上被染色的繃帶所纏繞。"
+        ]
+      },
+      {
+        "key": ["Fourth Paragraph", "第四段"],
+        "name": ["Fourth paragraph", "第四段"],
+        "info": [
+          "Amumu has inspired myths, songs , and folklore told and retold for generations—such that it is impossible to separate truth from fiction .",
+          "許多傳說、歌謠都曾訴說著阿姆姆的故事，一代傳頌過一代，世人早已分不出哪些是真、哪些是假。"
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["Anivia", "艾妮維亞"],
+    "id": 6,
+    "imgName": ["Anivia", "艾妮維亞"],
+    "cardImgMax": 8,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Anivia.png",
+    "skills": [
+      {
+        "key": ["passive", "被動"],
+        "name": ["REBIRTH", "寒霜涅槃"],
+        "info": [
+          "Upon taking fatal damage , Anivia reverts to an egg and is reborn with full health .",
+          "艾妮維亞被擊殺後化為蛋的型態，在重生之後，生命滿值。"
+        ]
+      },
+      {
+        "key": ["Q", "Q招式"],
+        "name": ["FLASH FROST", "寒冰閃耀"],
+        "info": [
+          "Anivia brings her wings together and summons a sphere of ice that flies towards her opponents , chilling and damaging anyone in its path . When the sphere explodes it does moderate damage in a radius , stunning anyone in the area .",
+          "艾妮維亞揮動翅膀聚集空氣，製造一枚冰晶向目標區域施放，冰凍減速並傷害路徑上所有敵人，冰尖柱到達目標位置爆裂，暈眩並傷害周圍敵人。"
+        ]
+      },
+      {
+        "key": ["W", "W招式"],
+        "name": ["CRYSTALLIZE", "寒冰屏障"],
+        "info": [
+          "Anivia condenses the moisture in the air into an impassable wall of ice to block all movement . The wall only lasts a short duration before it melts .",
+          "冰晶鳳凰利用空氣中的濕氣，召喚出一道不可穿越的冰之牆來阻擋她的敵人。該牆持續很短一段時間後就會融化。"
+        ]
+      },
+      {
+        "key": ["E", "E招式"],
+        "name": ["FROSTBITE", "霜寒刺骨"],
+        "info": [
+          "With a flap of her wings, Anivia blasts a freezing gust of wind at her target, dealing damage . If the target was recently hit by Flash Frost or damaged by a fully formed Glacial Storm , the damage they take is doubled .",
+          "冰晶鳳凰搧動雙翅，朝她的目標噴射出一股刺骨的強風，造成傷害。如果目標已經被寒冰閃耀命中，或是受到最大範圍的冰川風暴傷害，該技能將造成 200% 傷害。"
+        ]
+      },
+      {
+        "key": ["R", "大招"],
+        "name": ["GLACIAL STORM", "冰川風暴"],
+        "info": [
+          "Anivia summons a driving rain of ice and hail to damage her enemies and slow their advance .",
+          "艾妮維亞召喚出一朵夾雜著冰塊和冰雹的雨雲，對敵人造成傷害，並使其減速。"
+        ]
+      }
+    ],
+    "storys": [
+      {
+        "key": ["First Paragraph", "第一段"],
+        "name": ["First paragraph", "第一段"],
+        "info": [
+          "Anivia is a benevolent winged spirit who endures endless cycles of life , death, and rebirth to protect the Freljord .",
+          "艾妮維亞是仁慈，外型為冰晶鳳凰的神靈。她歷經過無數次的生死循環，每一次重生都是為了保護弗雷爾卓德。"
+        ]
+      },
+      {
+        "key": ["Second Paragraph", "第二段"],
+        "name": ["Second paragraph", "第二段"],
+        "info": [
+          "A demigod born of unforgiving ice and bitter winds , she wields those elemental powers to thwart any who dare disturb her homeland .",
+          "她是從永凍冰晶與刺骨寒風之中誕生的半神，任何膽敢來侵犯她家鄉的不速之客，她都會用體內的元素之力加以擊退。。"
+        ]
+      },
+      {
+        "key": ["Third Paragraph", "第三段"],
+        "name": ["Third paragraph", "第三段"],
+        "info": [
+          "Anivia guides and protects the tribes of the harsh north, who revere her as a symbol of hope , and a portent of great change . She fights with every ounce of her being , knowing that through her sacrifice , her memory will endure , and she will be reborn into a new tomorrow .",
+          "艾妮維亞保護並引領著定居於嚴酷北境的部族，而他們也打從心底尊崇她，不僅視她為希望的象徵，也視她為變故即將發生的預兆。為了保護弗雷爾卓德的人民，艾妮維亞會不計代價地運用身體每一個部位蘊含的冰霜之力。她知道即使她犧牲了，她的記憶依舊存在，而最終她也將重生為嶄新的明日。"
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["Annie", "安妮"],
+    "imgName": ["Annie", "安妮"],
+    "id": 7,
+    "cardImgMax": 14,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Annie.png",
+    "skills": [
+      {
+        "key": ["passive", "被動"],
+        "name": ["PYROMANIA", "嗜火"],
+        "info": [
+          "After casting 4 spells , Annie's next offensive spell will stun the target .",
+          "每施放四次技能後，安妮的下一個攻擊技能會使目標暈眩。"
+        ]
+      },
+      {
+        "key": ["Q", "Q招式"],
+        "name": ["DISINTEGRATE", "瓦解怒焰"],
+        "info": [
+          "Annie hurls a Mana infused fireball , dealing damage and refunding the Mana cost if it destroys the target .",
+          "安妮對目標施放魔法火球造成可觀的傷害。如果目標死於瓦解怒焰的話，安妮會得到施展此技能消耗的魔力。"
+        ]
+      },
+      {
+        "key": ["W", "W招式"],
+        "name": ["INCINERATE", "烈焰衝擊"],
+        "info": [
+          "Annie casts a blazing cone of fire , dealing damage to all enemies in the area .",
+          "安妮向錐形區域施放一道烈焰，對面前全部的敵人造成傷害。"
+        ]
+      },
+      {
+        "key": ["E", "E招式"],
+        "name": ["MOLTEN SHIELD", "熔炎護盾"],
+        "info": [
+          "Grants Annie or an ally a shield , a burst of Movement Speed, and damages enemies who attack her with basic attacks .",
+          "提供安妮或一名隊友一個護盾和爆發性的移動速度加成，並且傷害任何對安妮進行基礎攻擊的敵人。"
+        ]
+      },
+      {
+        "key": ["R", "大招"],
+        "name": ["SUMMON: TIBBERS", "召喚：泰貝爾"],
+        "info": [
+          "Annie wills her bear Tibbers to life , dealing damage to units in the area . Tibbers can attack and also burns enemies that stand near him .",
+          "安妮將生命力注入泰貝爾的身軀裡。泰貝爾自烈焰中現形，對目標區域內全部的敵人造成傷害。泰貝爾攻擊時會持續傷害周圍的敵人。"
+        ]
+      }
+    ],
+    "storys": [
+      {
+        "key": ["First Paragraph", "第一段"],
+        "name": ["First paragraph", "第一段"],
+        "info": [
+          "Dangerous , yet disarmingly precocious , Annie is a child mage with immense pyromantic power .",
+          "安妮是一名擁有強大火燄之力的幼年法師。雖然危險，卻讓人不禁承認她的前途不可限量。"
+        ]
+      },
+      {
+        "key": ["Second Paragraph", "第二段"],
+        "name": ["Second paragraph", "第二段"],
+        "info": [
+          "Even in the shadows of the mountains north of Noxus , she is a magical outlier .",
+          "她居住在諾克薩斯北方山脈的深處之中，在那裡隨處可見各種險惡生物及必須加以迴避的危險人物。然而即便如此，她擁有的力量依舊凌駕於他們之上。"
+        ]
+      },
+      {
+        "key": ["Third Paragraph", "第三段"],
+        "name": ["Third paragraph", "第三段"],
+        "info": [
+          "Her natural affinity for fire manifested early in life through unpredictable , emotional outbursts , though she eventually learned to control these playful tricks .",
+          "在安妮還是呱呱墜地的嬰孩時，她就因為突然爆發的情緒而展現出與火燄之間與生俱來的契合。不過幾年的時間，安妮已經可以完美地掌握這股力量。"
+        ]
+      },
+      {
+        "key": ["Fourth Paragraph", "第四段"],
+        "name": ["Fourth paragraph", "第四段"],
+        "info": [
+          "Her favorite includes the summoning of her beloved teddy bear , Tibbers, as a fiery protector .",
+          "她最愛的玩伴是由她自己召喚出來的泰迪熊，她把牠取名叫作「泰貝爾」。泰貝爾的身體被毀滅之火包圍，為了安妮，牠可以消滅眼前所有阻撓他們的敵人。"
+        ]
+      },
+      {
+        "key": ["Fifth Paragraph", "第五段"],
+        "name": ["Fifth paragraph", "第五段"],
+        "info": [
+          "Lost in the perpetual innocence of childhood, Annie wanders the dark forests, always looking for someone to play with.",
+          "長年與外界沒有任何接觸的安妮早已迷失在永恆的純真童年之中，她總是在黑暗的森林深處徘徊，不斷地找尋下一個可以陪她玩耍的同伴。"
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["Aphelios", "亞菲利歐"],
+    "imgName": ["Aphelios", "亞菲利歐"],
+    "id": 8,
+    "cardImgMax": 2,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Aphelios.png",
+    "skills": [
+      {
+        "key": ["passive", "被動"],
+        "name": ["THE HITMAN AND THE SEER", "殺手與先知"],
+        "info": [
+          "Aphelios wields 5 Lunari Weapons made by his sister Alune . He has access to two at a time : one main-hand and one off-hand . Each weapon has a unique Basic Attack and Ability . Attacks and abilities consume a weapon's ammo . When out of ammo , Aphelios discards the weapon and Alune summons the next of the 5 .",
+          "亞菲利歐揮舞著 5 個由他的姊妹亞盧妮所打造的月環教武器。他同時可以使用 2 個武器：1 個主武器和 1 個副武器。每個武器都有獨特的攻擊與技能。攻擊與技能都會消耗武器的彈藥。在彈藥耗盡時，亞菲利歐會棄置該武器，而亞盧妮會從 5 個武器中召喚下一個武器給亞菲利歐。"
+        ]
+      },
+      {
+        "key": ["Q", "Q招式"],
+        "name": ["WEAPON ABILITES", "武器技能"],
+        "info": [
+          "Aphelios has 5 different activated abilities , based on his main-hand weapon : Calibrum ( Rifle ) : Long range shot that marks its target for a long-range follow-up attack . Severum ( Scythe Pistol ) : Run fast while attacking nearby enemies with both weapons . Gravitum ( Cannon ) : Root all enemies slowed by this weapon . Infernum ( Flamethrower ) : Blast enemies in a cone and attack them with your off-hand weapon . Crescendum ( Chakram ) : Deploy a sentry that shoots your off-hand weapon .",
+          "武器技能亞菲利歐根據裝備的主武器不同，會擁有 5 個不同的主動技能：月影步槍（步槍）：長距離射擊，能夠標記目標以進行一次長程的追加攻擊。月鐮槍刃（鐮刀短銃）：快速奔跑的同時用兩把武器攻擊附近的敵人。月殞重砲 （加農重砲）：定身所有被這把武器緩速的敵人。熾夜月燄（火焰噴射器）：轟襲錐形範圍的敵人並用你的副武器攻擊他們。月曲終章（環型飛刃）：部署一個會用你的副武器射擊的哨兵。"
+        ]
+      },
+      {
+        "key": ["W", "W招式"],
+        "name": ["PHASE", "月相輪轉"],
+        "info": [
+          "Aphelios swaps his main-hand gun with his off-hand gun , replacing his basic attack and activated ability .",
+          "亞菲利歐將主武器切換成副武器，同時替換他的基礎攻擊方式與主動技能。"
+        ]
+      },
+      {
+        "key": ["E", "E招式"],
+        "name": ["WEAPON QUEUE SYSTEM", "武器佇列系統"],
+        "info": [
+          "Aphelios has no third ability . This slot shows the next weapon Alune will give him . Weapon order begins fixed but may change over game time , when a weapon is out of ammo it goes to the end of the order .",
+          "亞菲利歐沒有第三個技能。這個技能欄位會顯示亞盧妮即將為他提供的下一個武器。武器的佇列順序最初是固定的，但會隨著遊戲進行而改變 ─ 當一個武器的彈藥用罄時，就會進入佇列的末端。"
+        ]
+      },
+      {
+        "key": ["R", "大招"],
+        "name": ["MOONLIGHT VIGIL", "月夜守護"],
+        "info": [
+          "Fire a concentrated blast of moonlight that explodes on enemy champions . Applies the unique effect of Aphelios' main-hand gun .",
+          "發射一道集中的月光衝擊來轟炸敵方英雄。並且會附加亞菲利歐主武器的獨特效果。"
+        ]
+      }
+    ],
+    "storys": [
+      {
+        "key": ["First Paragraph", "第一段"],
+        "name": ["First paragraph", "第一段"],
+        "info": [
+          "Emerging from moonlight's shadow with weapons drawn , Aphelios kills the enemies of his faith in brooding silence speaking only through the certainty of his aim , and the firing of each gun .",
+          "溶於月影的神秘身姿、殺器盡出的劍拔弩張，亞菲利歐用致命的沉默弒殺了所有信仰之敵 ─ 他所熟悉的語言只有精準無比的射擊與各種火力強大的槍火。"
+        ]
+      },
+      {
+        "key": ["Second Paragraph", "第二段"],
+        "name": ["Second paragraph", "第二段"],
+        "info": [
+          "Though fueled by a poison that renders him mute , he is guided by his sister Alune .",
+          "雖然他飲下了令他失聲的毒藥，但他也因此得到了他的姊妹亞盧妮的引導。"
+        ]
+      },
+      {
+        "key": ["Third Paragraph", "第三段"],
+        "name": ["Third paragraph", "第三段"],
+        "info": [
+          "From her distant temple sanctuary , she pushes an arsenal of moonstone weapons into his hands .",
+          "從亞盧妮所身處的遙遠神廟中，她將各種以月之石精心鍛造的武器送到亞菲利歐的手中。"
+        ]
+      },
+      {
+        "key": ["Fourth Paragraph", "第四段"],
+        "name": ["Fourth paragraph", "第四段"],
+        "info": [
+          " For as long as the moon shines overhead , Aphelios will never be alone .",
+          "只要空中的明月依然皎潔，亞菲利歐就永不孤獨。"
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["Ashe", "艾希"],
+    "imgName": ["Ashe", "艾希"],
+    "id": 9,
+    "cardImgMax": 10,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/Ashe.png",
+    "skills": [
+      {
+        "key": ["passive", "被動"],
+        "name": ["FROST SHOT", "冰霜射擊"],
+        "info": [
+          "Ashe's attacks slow their target , causing her to deal increased damage to these targets . Ashe's critical strikes deal no bonus damage but apply an empowered slow to the target .",
+          "艾希的普攻對目標造成緩速，她的普攻對目標造成更多傷害。艾希的暴擊無法造成額外傷害，但有更高的緩速效果。"
+        ]
+      },
+      {
+        "key": ["Q", "Q招式"],
+        "name": ["RANGER'S FOCUS", "專注射擊"],
+        "info": [
+          "Ashe builds up Focus by attacking . At maximum Focus , Ashe can cast Ranger's Focus to consume all stacks of Focus , temporarily increasing her Attack Speed and transforming her basic attack into a powerful flurry attack for the duration .",
+          "艾希藉由攻擊疊加專注程度。 達到最大專注程度時，艾希可以消耗所有專注程度，使用專注射擊，暫時增加攻速並將普攻轉化為一連串的強力攻擊。"
+        ]
+      },
+      {
+        "key": ["W", "W招式"],
+        "name": ["VOLLEY", "萬箭齊發"],
+        "info": [
+          "Ashe fires arrows in a cone for increased damage . Also applies Frost Shot .",
+          "艾希向前方的錐形範圍射箭，造成額外的傷害。該技能會觸發冰霜射擊的效果。"
+        ]
+      },
+      {
+        "key": ["E", "E招式"],
+        "name": ["HAWKSHOT", "鷹擊長空"],
+        "info": [
+          "Ashe sends her Hawk Spirit on a scouting mission anywhere on the map .",
+          "艾希釋放獵鷹之靈進行偵查。。"
+        ]
+      },
+      {
+        "key": ["R", "大招"],
+        "name": ["ENCHANTED CRYSTAL ARROW", "魔法水晶箭"],
+        "info": [
+          "Ashe fires a missile of ice in a straight lin . If the arrow collides with an enemy Champion , it deals damage and stuns the Champion , stunning for longer the farther arrow has traveled . In addition, surrounding enemy units take damage and are slowed .",
+          "艾希向前方射出魔法水晶箭，擊中敵方英雄時對該英雄造成傷害並暈眩目標。飛行距離越遠，暈眩時間越長。同時對該英雄附近的敵人造成傷害並減速。"
+        ]
+      }
+    ],
+    "storys": [
+      {
+        "key": ["First Paragraph", "第一段"],
+        "name": ["First paragraph", "第一段"],
+        "info": [
+          "Iceborn warmother of the Avarosan tribe , Ashe commands the most populous horde in the north .",
+          "身為寒霜之裔的艾希是北境人口數量最龐大的部族 －「艾伐洛森」的戰爭之女，她同時也是率領這個部族的領袖。"
+        ]
+      },
+      {
+        "key": ["Second Paragraph", "第二段"],
+        "name": ["Second paragraph", "第二段"],
+        "info": [
+          "Stoic , intelligent , and idealistic , yet uncomfortable with her role as leader , she taps into the ancestral magics of her lineage to wield a bow of True Ice .",
+          "艾希性格堅毅、天資聰穎，而且充滿理想，但是卻不太習慣領導者這個身分。她體內寒霜之裔的血統使她可以完美運用由真霜冰晶打造而成的冰結長弓。"
+        ]
+      },
+      {
+        "key": ["Third Paragraph", "第三段"],
+        "name": ["Third paragraph", "第三段"],
+        "info": [
+          "With her people's belief that she is the mythological hero Avarosa reincarnated , Ashe hopes to unify the Freljord once more by retaking their ancient , tribal lands .",
+          "而她領導的人民則相信她是英雄艾伐洛森的轉世。艾希畢生的心願是收復他們部族在遠古時期曾經擁有的領地，並再次統一弗雷爾卓德。"
+        ]
+      }
+    ]
+  },
+  {
+    "name": ["Aurelion Sol", "翱銳龍獸"],
+    "imgName": ["AurelionSol", "翱銳龍獸"],
+    "id": 10,
+    "cardImgMax": 3,
+    "icon": "http://ddragon.leagueoflegends.com/cdn/11.15.1/img/champion/AurelionSol.png",
+    "skills": [
+      {
+        "key": ["passive", "被動"],
+        "name": ["CENTER OF THE UNIVERSE", "宇宙奇點"],
+        "info": [
+          "Stars orbit Aurelion Sol , dealing magic damage when they hit an enemy .",
+          "星體環繞翱銳龍獸，在擊中敵方時造成傷害。"
+        ]
+      },
+      {
+        "key": ["Q", "Q招式"],
+        "name": ["STARSURGE", "星湧"],
+        "info": [
+          "Aurelion Sol creates an expanding disk , which explodes to stun and damage enemies when it moves too far away from him .",
+          "翱銳龍獸朝目標方向發射一顆超新星的核心，產生爆炸，在再次啟動或距離翱銳龍獸過遠時造成傷害並擊暈周圍敵人。"
+        ]
+      },
+      {
+        "key": ["W", "W招式"],
+        "name": ["CELESTIAL EXPANSION", "星體擴張"],
+        "info": [
+          "Aurelion Sol pushes his stars farther out , increasing their damage and speed .",
+          "翱銳龍獸將環繞的星體向外推，提高他們的傷害和速度。"
+        ]
+      },
+      {
+        "key": ["E", "E招式"],
+        "name": ["COMET OF LEGEND", "掠日彗星"],
+        "info": [
+          "Aurelion Sol takes off flying for a long distance .",
+          "翱銳龍獸進行一段極遠距離的飛行。"
+        ]
+      },
+      {
+        "key": ["R", "大招"],
+        "name": ["VOICE OF LIGHT", "光音"],
+        "info": [
+          "Aurelion Sol projects a blast of pure starfire , damaging and slowing all enemies caught in it and knocking nearby enemies back to a safer distance .",
+          "翱銳龍獸朝目標方向射出一道星火，對所有擊中的敵方造成傷害並緩速。在爆炸範圍附近的敵方會被擊退至翱銳龍獸的環外。"
+        ]
+      }
+    ],
+    "storys": [
+      {
+        "key": ["First Paragraph", "第一段"],
+        "name": ["First paragraph", "第一段"],
+        "info": [
+          "Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising .",
+          "曾經，翱銳龍獸以他精妙的星體結構點亮了空無一物的太空。"
+        ]
+      },
+      {
+        "key": ["Second Paragraph", "第二段"],
+        "name": ["Second paragraph", "第二段"],
+        "info": [
+          "Now , he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude .",
+          "而今，他被迫將他強大的力量奉獻給一個宇宙帝國。"
+        ]
+      },
+      {
+        "key": ["Third Paragraph", "第三段"],
+        "name": ["Third paragraph", "第三段"],
+        "info": [
+          "Desiring a return to his star-forging ways , Aurelion Sol will drag the very stars from the sky , if he must, in order to regain his freedom .",
+          "為了重回自由之身，翱銳龍獸願摘下天上所有的星球，也在所不惜。"
+        ]
+      }
+    ]
+  }
+]

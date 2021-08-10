@@ -1,0 +1,27 @@
+.LolMain-Out-Wrap {
+  width: 80%;
+  height: 70vh;
+  right: 0;
+  position: absolute;
+  display: flex;
+}
+.lines {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  h4 {
+    color: rgb(189, 62, 214);
+    font-size: large;
+    font-family: monospace;
+    transform: translateX(300%) translateY(-200%);
+    border-bottom: 2px solid rgb(16, 115, 180);
+  }
+}

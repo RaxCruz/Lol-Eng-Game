@@ -1,0 +1,40 @@
+.SelectCharContent-Out-Wrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+  transition: 1s;
+  h3 {
+    color: white;
+    font-weight: bold;
+    font-family: Tahoma, sans-serif;
+  }
+  //border: 2px solid black;
+}
+.SelectCharContent-Out-Wrap:hover {
+  box-shadow: inset -500px 0px 0px 200px #0bc6e3,
+    inset -300px 0px 0px 0px #0bc6e3;
+}
+.SelectChar-Out-Wrap {
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border: 2px solid #0bc6e3;
+  box-shadow: 0 0 10px #0bc6e3;
+  height: 700px;
+  overflow-y: scroll;
+}
+
+.SelectChar-Out-Wrap::-webkit-scrollbar {
+  display: none;
+}
+.Champion-Icon {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.Champion-Name {
+  margin-left: 10px;
+}

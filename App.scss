@@ -1,0 +1,42 @@
+.app-wrap {
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+.app-wrap::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  z-index: -1;
+}
+.app-wrap::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://universe.leagueoflegends.com/images/trendingBackground.jpg");
+  left: 0;
+  top: 0;
+  opacity: 0.3;
+}
+
+.app-body {
+  display: inline-block;
+  border-left: 3px solid greenyellow;
+  margin-top: 30px;
+}
+.app-side-bar {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.382);
+  left: 0px;
+  width: 20%;
+}
+
+.app-body-flex {
+  display: flex;
+}

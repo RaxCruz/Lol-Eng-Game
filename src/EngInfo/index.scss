@@ -1,0 +1,50 @@
+.Eng-Out-Wrap {
+  font-family: Consolas, Ink Free;
+  width: 80%;
+  padding: 50px 0px 50px 0px;
+}
+.Eng-Main {
+  height: 230px;
+  background: rgba(239, 241, 239, 0.158);
+  box-shadow: -10px -10px 30px 1px black;
+  border-radius: 20px;
+  border: 2px solid gold;
+  position: relative;
+  //border: 5px solid orange;
+  //box-shadow: 0 0 10px rgba(235, 118, 22, 0.719),
+  // 0 0 40px rgba(236, 122, 29, 0.719), 0 0 80px rgba(236, 122, 29, 0.719);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.Eng-Main::before {
+  content: "原文";
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  border-radius: 10px;
+  background: linear-gradient(
+    60deg,
+    rgb(157, 40, 180) 80%,
+    rgb(255, 255, 255) 80%
+  );
+  border: 1px solid gold;
+  box-shadow: 0 0 5px gold, 0 0 10px gold, 0 0 20px gold;
+  color: white;
+  transform: translateX(-50%);
+}
+.Eng-Description {
+  color: white;
+  font-size: 24px;
+}
+.Eng-title {
+  color: rgb(13, 202, 236);
+  font-size: 24px;
+}
+.Eng-title-Eng {
+  color: rgb(160, 62, 224);
+}
