@@ -2,3 +2,8 @@
   width: 100%;
   margin-left: 70px;
 }
+@media screen and (max-width: 750px) {
+  .Game-Out-Wrap {
+    margin-left: 20px;
+  }
+}

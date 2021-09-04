@@ -25,3 +25,9 @@
     border-bottom: 2px solid rgb(16, 115, 180);
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .LolMain-Out-Wrap > .left {
+    display: none;
+  }
+}

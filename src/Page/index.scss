@@ -1,11 +1,11 @@
 .Page-Out-Wrap {
   width: 80%;
-  height: 70px;
+  height: 10vh;
   position: relative;
 }
 .arrow {
   position: absolute;
-  top: 50%;
+  top: 20%;
   width: 3vmin;
   height: 3vmin;
   background: transparent;
@@ -38,5 +38,14 @@
     top: -200%;
     width: 300%;
     height: 300%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .Page-Out-Wrap {
+    height: 10vh;
+    width: 95%;
+  }
+  .arrow {
+    top: 0%;
   }
 }

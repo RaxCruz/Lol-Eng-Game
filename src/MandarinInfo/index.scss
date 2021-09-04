@@ -5,7 +5,7 @@
 }
 .MandarinInfo-Main {
   padding-top: 20px;
-  height: 250px;
+  height: 25vh;
   border-radius: 20px;
   border: 2px solid gold;
   background: rgba(239, 241, 239, 0.158);
@@ -47,4 +47,18 @@
   background-color: #fff;
   right: 0;
   bottom: 0;
+}
+
+.b-overflow {
+  overflow-y: scroll;
+
+  height: 100%;
+}
+.b-overflow::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 750px) {
+  .MandarinInfo-Out-Wrap {
+    width: 95%;
+  }
 }

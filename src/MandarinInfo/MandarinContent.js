@@ -50,6 +50,10 @@ const MandarinInfoContent = (props) => {
       />
     );
   });
-  return <div className="MandarinInfo-Main">{tranlateForm}</div>;
+  return (
+    <div className="MandarinInfo-Main">
+      <div className="b-overflow"> {tranlateForm}</div>
+    </div>
+  );
 };
 export default MandarinInfoContent;

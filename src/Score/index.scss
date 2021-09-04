@@ -7,7 +7,7 @@
 
   p {
     display: block;
-    font-size: 50px;
+    font-size: 300%;
     font-weight: 900;
     color: rgb(3, 231, 3);
     font-variant-numeric: oldstyle-nums;
@@ -26,5 +26,14 @@
     border: 1px solid white;
     box-shadow: 0 0 5px white, 0 0 7px white;
     transform: rotateZ(-45deg);
+  }
+}
+@media screen and (max-width: 750px) {
+  .Score-Out-Wrap {
+    right: 0%;
+    top: -18%;
+  }
+  .Score-Out-Wrap p {
+    font-size: 220%;
   }
 }

@@ -2,6 +2,7 @@
   height: 100vh;
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 .app-wrap::after {
   content: "";

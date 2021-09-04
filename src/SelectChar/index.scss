@@ -23,7 +23,7 @@
   border-top-right-radius: 30px;
   border: 2px solid #0bc6e3;
   box-shadow: 0 0 10px #0bc6e3;
-  height: 700px;
+  height: 70vh;
   overflow-y: scroll;
 }
 
@@ -37,4 +37,22 @@
 }
 .Champion-Name {
   margin-left: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .Champion-Icon {
+    width: 50%;
+    height: 50%;
+  }
+  .SelectCharContent-Out-Wrap h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .Champion-Icon {
+    width: 40%;
+    height: 40%;
+  }
+  .SelectCharContent-Out-Wrap h3 {
+    font-size: 12px;
+  }
 }
